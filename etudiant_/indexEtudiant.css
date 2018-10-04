@@ -1,0 +1,240 @@
+/* Gabarit avec quatre blocs*/
+
+
+/* Largeur fixe pour le menu et le contenu  */
+
+
+/* font-family:"century gothic" color: #fff;*/
+
+
+/* --------------------------------------------------------*/
+
+body {
+    font: 600 14px/24px "Open Sans", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", Sans-Serif;
+}
+
+.mondiv {
+    height: 100px;
+}
+
+#master {
+    /* Conteneur principal pour centrer le contenu */
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+}
+
+.titre {
+    font-size: 25px;
+}
+
+#entete {
+    /* Bloc de l'en-tête */
+    margin: 0;
+    height: 90px;
+    border: 1px solid red;
+    background-image: url("images/rosemont.jpg");
+    background-size: 100% 100%;
+    position: relative;
+}
+
+#entete p {
+    margin: 0 0 0 1em;
+    /* Marge gauche de 1em */
+}
+
+
+/* menu header nav */
+
+header>nav {
+    display: inline-block;
+    width: 100%;
+    text-align: right;
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+header nav li {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+nav a {
+    font-size: 1.3em;
+    padding-bottom: 3px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    border-bottom: 3px solid #760001;
+}
+
+
+/* Navigation */
+
+nav {
+    display: inline-block;
+    width: 740px;
+    text-align: right;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+nav a {
+    font-size: 1.3em;
+    color: white;
+    padding-bottom: 3px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #760001;
+    border-bottom: 3px solid #760001;
+}
+
+article nav a {
+    color: black;
+}
+
+
+/* Bannière */
+
+#banniere_image {
+    margin-top: 5px;
+    height: 200px;
+    border-radius: 5px;
+    background: url('images/banniere.jpg') no-repeat;
+    position: relative;
+    background-size: 100% 100%;
+    position: relative;
+    margin-bottom: 0px;
+}
+
+#menu {
+    /* Bloc du menu */
+    background: white;
+    float: left;
+    margin: 0;
+    width: 200px;
+    height: 570px;
+    border: 1px solid green;
+}
+
+#menu p {
+    margin: 0 0 0 1em;
+    /* Marge gauche de 1em */
+}
+
+#menu a {
+    font-family: verdana;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+#menu a:hover {
+    font-family: verdana;
+    font-size: 16px;
+    color: blue;
+    text-decoration: underline;
+}
+
+#menu li {
+    line-height: 3em;
+    /* Pour définir l'espace entre les options */
+    /* Aucune puce  list-style-type:none;*/
+}
+
+#contenu {
+    /* Bloc du contenu */
+    background: #ffffff;
+    margin: 0;
+    /* margin-left: 200px;*/
+    height: auto;
+    border: 1px solid blue;
+}
+
+#contenu p {
+    margin: 0 0 0 0.25em;
+    /*Marge gauche de 1em */
+}
+
+aside {
+    position: relative;
+    width: 235px;
+    background-color: #f2f2f2;
+    box-shadow: 0px 2px 5px #1c1a19;
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+    font-size: 0.9em;
+    float: left;
+}
+
+#sidebar li {
+    list-style-type: none;
+    line-height: 3em;
+    /* Pour définir l'espace entre les options */
+}
+
+#sidebar a:hover {
+    font-family: verdana;
+    font-size: 16px;
+    color: blue;
+    text-decoration: underline;
+}
+
+#fleche_bulle {
+    position: absolute;
+    top: 100px;
+    left: -12px;
+}
+
+aside img {
+    margin-right: 5px;
+}
+
+#pied {
+    /* Bloc du pied de page */
+    background: #ff3333;
+    clear: both;
+    margin-top: 20px;
+    height: auto;
+    border: 1px solid purple;
+}
+
+#pied p {
+    margin: 0 0 0 1em;
+    /* Marge gauche de 1em */
+}
+
+#logo {
+    margin: 3px;
+    float: left;
+}
+
+table {
+    border-collapse: collapse;
+    /* Les bordures du tableau seront coll�es (plus joli) */
+    position: relative;
+    /*left: 100px;*/
+}
+
+td,
+th {
+    border: 1px solid black;
+    /* auront une bordure de 1px */
+}
+
+#radio-inline {
+    margin-left: 20px;
+}

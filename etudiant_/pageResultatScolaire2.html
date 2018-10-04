@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="indexEtudiant.css" />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <title>Maquette d'une page d'accueil</title>
+
+
+
+
+</head>
+
+<body>
+    <main id="master" class="container">
+        <header id="entete">
+            <nav>
+                <ul>
+                    <li> <a href="#">Le College</a></li>
+                    <li> <a href="#">Carrière</a> </li>
+                    <li> <a href="#">Bibliothèque</a> </li>
+                    <li> <a href="#">Fondation</a> </li>
+                    <li> <a href="#">Nous joindre</a></li>
+                </ul>
+                <input type="search" name="recherche" id="recherche" />
+            </nav>
+            <!--<img id="logo" src="images/rosemont.jpg" alt="college rosemont" width="220" height="80" />
+            <p><span class="titre">Bienvenue au College Rosemont</span> </br> Rosemont, à la fine pointe de la technologie </p> -->
+        </header>
+        <article id="sous_menu">
+            <nav>
+                <ul>
+                    <li> <a href="pageInscription.php">Inscriptions</a></li>
+                    <li> <a href="pageEtudiantsInscrits.html">Étudiants inscrits</a> </li>
+                    <li> <a href="pageResultatScolaire2.html">Resultats scolaire</a> </li>
+                </ul>
+            </nav>
+        </article>
+        <div id="banniere_image">
+        </div>
+
+        <div id="mondiv"></div>
+        <button type="button" class="btn btn-primary" clas="col-md-2 offset-md-2" id="btn-prev">Previuos</button>
+        <button type="button" class="btn btn-primary" id="btn-next">Next</button>
+        <footer id="pied">
+            <p><span class="titre"> Contact</span> : T. 514 376-1620</br>
+                6400, 16e Avenue Montréal (Québec) H1X 2S9 </p>
+        </footer>
+    </main>
+    <script src="resscol.js"></script>
+</body>
+
+</html>
